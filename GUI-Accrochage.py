@@ -32,9 +32,9 @@ while True:
     elif event == "Validation":
         stdout, stderr = run_script('validation.py')
         if not stderr:
-            window["-VALIDATION-RESULT-"].update("Fichier valide", text_color="lime")
+            window["-VALIDATION-RESULT-"].update("Fichier analysé, consulter le l'affichage...", text_color="lime")
         else:
-            window["-VALIDATION-RESULT-"].update("Erreur de validation,consulter le l'affichage...", text_color="red")
+            window["-VALIDATION-RESULT-"].update("Erreur de validation, consulter le l'affichage...", text_color="red")
         print(stdout if stdout else stderr)
     elif event == sg.WIN_CLOSED or event == "Fermer":
         break
