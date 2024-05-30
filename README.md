@@ -1,2 +1,21 @@
 # Accrochage
 Accrochage à la caisse des dépôts
+
+# Prérequis
+Les fichiers "Data.csv" doit être dans le meme dossier que "Accrochage.py"
+
+# Description 
+Ce fichier doit contenir les certifications des étudiants aux format : 
+
+## 5 Premières lignes du CSV :
+BLOC 1,,BLOC 2,BLOC 3,,BLOC 4,,BLOC 5,,,,,,,,,BLOC 7,BLOC 8,,,,,,,
+<cpf:flux>,,<cpf:emetteur>,<cpf:certificateur>,,<cpf:certification>,,<cpf:passageCertification>,,,,,,,,,<cpf:modalitesInscription>,<cpf:titulaire>,,,,,,,
+1.1,1.2,2.1,3.1,3.2,4.1,4.2,5.1,5.4,5.5,5.10,5.11,5.12,5.14,5.15,5.16,7.1,8.1,8.2,8.3,8.6,8.7,8.8,8.9,8.11
+Identifiant du flux,Horodatage,N° de la fiche client de l'emetteur,N° de la fiche client Certificateur,Numéro de contrat spécifique Certificateur,Type de certification,Code,ID Technique du passage de la certification,Obtention de la certification par admission ou scoring,Donnée certifiée,Date de début de validité et de délivrance de la certification,Date de fin de validité de la certification,Présence du niveau de langue européen,Présence du niveau numérique européen,Scoring ou base de notation,Mention(s) validée(s),Modalité d'accès à la certification,Nom de naissance du titulaire,Nom d'usage ou marital,Prénom 1,Année de naissance,Mois de naissance,Jour de naissance,Sexe,Code postal de la commune de naissance du titulaire
+idFlux,horodatage,idClient,idClient,idContrat,type,code,idTechnique,obtentionCertification,donneeCertifiee,dateDebutValidite,dateFinValidite,presenceNiveauLangueEuro,presenceNiveauNumeriqueEuro,scoring,mentionValidee,modaliteAcces,nomNaissance,nomUsage,prenom1,anneeNaissance,moisNaissance,jourNaissance,sexe,codePostal
+
+## A partir de la 6ème lignes les enregistrements des étudiants, avec les infos dans chaque colonne.
+
+# Execution :
+
+`python3 Accrochage.py`
