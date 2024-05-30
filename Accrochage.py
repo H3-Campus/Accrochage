@@ -1,3 +1,9 @@
+#Traitement des fichiers csv fournit avant de lancer ce script :
+#   - Remplacement des ; par des , sous gedit
+#   - Ouvrir avec libre office et supprimer toute les , parasites
+#   - Mettre les date de la colonne K au format "aaaa-mm-jj"
+
+
 import xml.etree.ElementTree as ET
 import csv
 import random
@@ -8,7 +14,7 @@ import pytz
 import os 
 
 # Emplacement du fichier CSV et XML
-csv_file = "Dico2.csv"
+csv_file = "Data.csv"
 xml_file = "file.xml"
 tz_paris = pytz.timezone('Europe/Paris')
 
@@ -41,7 +47,7 @@ def indent(elem, level=0):
 def create_xml_from_csv(csv_filepath, xml_filepath):
     logging.info("Ouverture du CSV...")
     # Ouvrir le fichier CSV pour la lecture
-    with open(csv_filepath, newline='', encoding='utf-8') as csvfile:
+    with open(csv_filepath, newline='', encoding='UTF-8') as csvfile:
         reader = csv.reader(csvfile)
         Allrows = list(reader)
     
@@ -62,20 +68,19 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
         now = datetime.datetime.now(tz_paris)
         value = now.strftime("%Y-%m-%dT%H:%M:%S+01:00")
 
-        ET.SubElement(root, "cpf:idFlux").text = headers[0]
-        #str(random.randint(1000000000, 99999999999))
+        ET.SubElement(root, "cpf:idFlux").text = str(random.randint(1000000000, 99999999999))
         ET.SubElement(root, "cpf:horodatage").text = value
         
         # Création et ajout de l'élément emetteur
         emetteur = ET.SubElement(root, "cpf:emetteur")
-        logging.info("Emmetteur du fchier ...")
+        logging.info("Emmetteur du fichier ...")
         
         # Création de la structure des certificateurs       
-        idClient = str(random.randint(10000000, 99999999)) if Allrows[5][2] == '' else Allrows[5][2]
+        idClient = str(random.randint(10000000, 99999999)) if Allrows[5][2] == '' else Allrows[6][2]
         ET.SubElement(emetteur, "cpf:idClient").text = idClient
         certificateurs = ET.SubElement(emetteur, "cpf:certificateurs")   
         certificateur = ET.SubElement(certificateurs, "cpf:certificateur")
-        logging.info(f"Certificateur {idClient}...")
+        logging.info("Certificateur %s",idClient)
         
         # Traitement pour NumClient pour le certificateur
         idClient2 = str(random.randint(10000000, 99999999)) if Allrows[5][3] == '' else Allrows[5][3]
@@ -89,8 +94,8 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
         certifications = ET.SubElement(certificateur, "cpf:certifications")
         certification = ET.SubElement(certifications, "cpf:certification")
         
-        ET.SubElement(certification, "cpf:type").text = headers[5]
-        ET.SubElement(certification, "cpf:code").text = headers[6]
+        ET.SubElement(certification, "cpf:type").text = Allrows[6][5]
+        ET.SubElement(certification, "cpf:code").text = Allrows[6][6]
         
         # Ajout d'un seul passage de certification
         passage_certifications = ET.SubElement(certification, "cpf:passageCertifications")
@@ -157,4 +162,3 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
 # Appel de la fonction pour créer le fichier XML
 create_xml_from_csv(csv_file, xml_file)
 logging.info("Fichier XML créé avec succès.")
-
