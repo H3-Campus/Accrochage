@@ -3,7 +3,6 @@ import csv
 import random
 import logging
 import datetime
-import subprocess
 import pytz
 import os 
 
