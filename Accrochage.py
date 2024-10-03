@@ -23,7 +23,7 @@ def indent(elem, level=0):
     """ Ajoute des indentations aux éléments pour une meilleure lisibilité du fichier XML. """
     i = "\n" + level * "  "
     if len(elem):
-        if not elem.text or not elem.text.strip():
+        if not elem.text or not elem.texcdt.strip():
             elem.text = i + "  "
         if not elem.tail or not elem.tail.strip():
             elem.tail = i
@@ -49,7 +49,7 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
             logging.error("Les données CSV requises sont manquantes.")
             exit()
                         
-        headers = Allrows[4][2:]  # Sauter les deux premiers en-têtes
+        headers = Allrows[5][2:]  # Sauter les deux premiers en-têtes
         logging.info("Création de l'arborescence du fichier XML...")
     
         # Créer l'élément racine avec l'espace de noms 'cpf'
@@ -88,8 +88,8 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
         certifications = ET.SubElement(certificateur, "cpf:certifications")
         certification = ET.SubElement(certifications, "cpf:certification")
         
-        ET.SubElement(certification, "cpf:type").text = headers[5]
-        ET.SubElement(certification, "cpf:code").text = headers[6]
+        ET.SubElement(certification, "cpf:type").text = headers[3]
+        ET.SubElement(certification, "cpf:code").text = headers[4]
         
         # Ajout d'un seul passage de certification
         passage_certifications = ET.SubElement(certification, "cpf:passageCertifications")
@@ -104,16 +104,16 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
             logging.info(f"Ajout des certifications : {row[7]}")
             passage_certification = ET.SubElement(passage_certifications, "cpf:passageCertification")
             ET.SubElement(passage_certification, "cpf:idTechnique").text = row[7]
-            ET.SubElement(passage_certification, "cpf:obtentionCertification").text = row[8]
-            ET.SubElement(passage_certification, "cpf:donneeCertifiee").text = row[9]
-            ET.SubElement(passage_certification, "cpf:dateDebutValidite").text = row[10]
+            ET.SubElement(passage_certification, "cpf:obtentionCertification").text = row[8].upper()
+            ET.SubElement(passage_certification, "cpf:donneeCertifiee").text = row[9].lower()
+            ET.SubElement(passage_certification, "cpf:dateDebutValidite").text = row[10].replace("/", "-")[6:] + "-" + row[10][3:5] + "-" + row[10][:2]
              # Vérification si la date de fin de validité est 'nil;'
             if row[11].strip().lower() == 'nil':
                 ET.SubElement(passage_certification, "cpf:dateFinValidite", {"xsi:nil": "true"})
             else:
                 ET.SubElement(passage_certification, "cpf:dateFinValidite").text = row[11]
-            ET.SubElement(passage_certification, "cpf:presenceNiveauLangueEuro").text = row[12]
-            ET.SubElement(passage_certification, "cpf:presenceNiveauNumeriqueEuro").text = row[13]
+            ET.SubElement(passage_certification, "cpf:presenceNiveauLangueEuro").text = row[12].lower()
+            ET.SubElement(passage_certification, "cpf:presenceNiveauNumeriqueEuro").text = row[13].lower()
             if row[14].strip().lower() == 'nil':
                 ET.SubElement(passage_certification, "cpf:scoring", {"xsi:nil": "true"})
             else:
@@ -121,7 +121,7 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
             if row[15].strip().lower() == 'nil':
                 ET.SubElement(passage_certification, "cpf:mentionValidee", {"xsi:nil": "true"})
             else:
-                ET.SubElement(passage_certification, "cpf:mentionValidee").text = row[15]
+                ET.SubElement(passage_certification, "cpf:mentionValidee").text = row[15].lower()
             
             # Modalite inscription
             modalites_inscription = ET.SubElement(passage_certification, "cpf:modalitesInscription")
@@ -156,4 +156,3 @@ def create_xml_from_csv(csv_filepath, xml_filepath):
 # Appel de la fonction pour créer le fichier XML
 create_xml_from_csv(csv_file, xml_file)
 logging.info("Fichier XML créé avec succès.")
-
