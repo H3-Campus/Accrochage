@@ -4,8 +4,8 @@ Accrochage à la caisse des dépôts. Ce script génére un fichier xml pour la 
 # Prérequis
 * Les fichiers "Data.csv" doit être dans le meme dossier que "Accrochage.py"
 * Environnement Python installé : sudo apt install python3
-* Outil pip3 doit être installé : sudo apt install python3-pip
-* Le module pytz doit être installé : pip3 install pytz
+* Outil pip3 doit être installé : sudo apt install python3-pip python3-tk
+* Le module pytz doit être installé : pip3 install pytz lxml 
 
 ### Cas de l'utilisation de Pycharm (Education) :
 
