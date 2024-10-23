@@ -1,3 +1,6 @@
+# *******************************************************************************
+# Formatage du fichier Data.csv avec libre Office avant de commencer...
+
 import xml.etree.ElementTree as ET
 import csv
 import random

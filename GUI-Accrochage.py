@@ -1,3 +1,9 @@
+#Prérequis :
+# Install tk / PySimpleGUI
+# sudo apt install python3-tk
+
+
+
 import PySimpleGUI as sg
 import subprocess
 
