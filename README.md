@@ -2,7 +2,10 @@
 Accrochage à la caisse des dépôts. Ce script génére un fichier xml pour la caisse des dépôt à partir d'un fichier csv.
 
 # Prérequis
-Les fichiers "Data.csv" doit être dans le meme dossier que "Accrochage.py"
+* Les fichiers "Data.csv" doit être dans le meme dossier que "Accrochage.py"
+* pip3 doit être installé : sudo apt install python3-pip
+* Le module pytz doit être installé : pip3 install pytz
+
 
 # Description 
 Ce fichier doit contenir les certifications des étudiants aux format : 
