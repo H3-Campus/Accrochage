@@ -1,39 +1,99 @@
 <?xml version='1.0' encoding='utf-8'?>
 <cpf:flux xmlns:cpf="urn:cdc:cpf:pc5:schema:1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <cpf:idFlux>idClient</cpf:idFlux>
-  <cpf:horodatage>2024-01-11T13:24:05+01:00</cpf:horodatage>
+  <cpf:idFlux>03VMN001</cpf:idFlux>
+  <cpf:horodatage>2024-10-23T12:13:20+01:00</cpf:horodatage>
   <cpf:emetteur>
-    <cpf:idClient>86478630</cpf:idClient>
+    <cpf:idClient>03VMN001</cpf:idClient>
     <cpf:certificateurs>
       <cpf:certificateur>
-        <cpf:idClient>71541698</cpf:idClient>
-        <cpf:idContrat>40802928</cpf:idContrat>
+        <cpf:idClient>03VMN001</cpf:idClient>
+        <cpf:idContrat>MCFCER000001</cpf:idContrat>
         <cpf:certifications>
           <cpf:certification>
-            <cpf:type>idTechnique</cpf:type>
-            <cpf:code>obtentionCertification</cpf:code>
+            <cpf:type>RNCP</cpf:type>
+            <cpf:code>RNCP25000</cpf:code>
             <cpf:passageCertifications>
               <cpf:passageCertification>
-                <cpf:idTechnique>#VALEUR !</cpf:idTechnique>
+                <cpf:idTechnique>RNCP25000.2022</cpf:idTechnique>
                 <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
                 <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
-                <cpf:dateDebutValidite>2022-01-18</cpf:dateDebutValidite>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
                 <cpf:dateFinValidite xsi:nil="true" />
                 <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
                 <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
                 <cpf:scoring xsi:nil="true" />
                 <cpf:mentionValidee xsi:nil="true" />
                 <cpf:modalitesInscription>
-                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
                 </cpf:modalitesInscription>
                 <cpf:identificationTitulaire>
                   <cpf:titulaire>
-                    <cpf:nomNaissance>toto</cpf:nomNaissance>
-                    <cpf:nomUsage>toto</cpf:nomUsage>
-                    <cpf:prenom1>test1</cpf:prenom1>
-                    <cpf:anneeNaissance>1980</cpf:anneeNaissance>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Boyer</cpf:nomUsage>
+                    <cpf:prenom1>Paul</cpf:prenom1>
+                    <cpf:anneeNaissance>1991</cpf:anneeNaissance>
+                    <cpf:moisNaissance>3</cpf:moisNaissance>
+                    <cpf:jourNaissance>10</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2023</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Garnier</cpf:nomNaissance>
+                    <cpf:nomUsage>Leclerc</cpf:nomUsage>
+                    <cpf:prenom1>Alice</cpf:prenom1>
+                    <cpf:anneeNaissance>1964</cpf:anneeNaissance>
                     <cpf:moisNaissance>7</cpf:moisNaissance>
-                    <cpf:jourNaissance>1</cpf:jourNaissance>
+                    <cpf:jourNaissance>12</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>13003</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2024</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Paul</cpf:prenom1>
+                    <cpf:anneeNaissance>1995</cpf:anneeNaissance>
+                    <cpf:moisNaissance>10</cpf:moisNaissance>
+                    <cpf:jourNaissance>4</cpf:jourNaissance>
                     <cpf:sexe>M</cpf:sexe>
                     <cpf:codeCommuneNaissance>
                       <cpf:codePostalNaissance>
@@ -44,40 +104,40 @@
                 </cpf:identificationTitulaire>
               </cpf:passageCertification>
               <cpf:passageCertification>
-                <cpf:idTechnique>#VALEUR !</cpf:idTechnique>
+                <cpf:idTechnique>RNCP25000.2025</cpf:idTechnique>
                 <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
                 <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
-                <cpf:dateDebutValidite>2022-01-19</cpf:dateDebutValidite>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
                 <cpf:dateFinValidite xsi:nil="true" />
                 <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
                 <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
                 <cpf:scoring xsi:nil="true" />
                 <cpf:mentionValidee xsi:nil="true" />
                 <cpf:modalitesInscription>
-                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
                 </cpf:modalitesInscription>
                 <cpf:identificationTitulaire>
                   <cpf:titulaire>
-                    <cpf:nomNaissance>tata</cpf:nomNaissance>
-                    <cpf:nomUsage>tata</cpf:nomUsage>
-                    <cpf:prenom1>test2</cpf:prenom1>
-                    <cpf:anneeNaissance>1981</cpf:anneeNaissance>
-                    <cpf:moisNaissance>8</cpf:moisNaissance>
-                    <cpf:jourNaissance>2</cpf:jourNaissance>
-                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Leclerc</cpf:nomUsage>
+                    <cpf:prenom1>Marie</cpf:prenom1>
+                    <cpf:anneeNaissance>1955</cpf:anneeNaissance>
+                    <cpf:moisNaissance>2</cpf:moisNaissance>
+                    <cpf:jourNaissance>9</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
                     <cpf:codeCommuneNaissance>
                       <cpf:codePostalNaissance>
-                        <cpf:codePostal>75002</cpf:codePostal>
+                        <cpf:codePostal>13003</cpf:codePostal>
                       </cpf:codePostalNaissance>
                     </cpf:codeCommuneNaissance>
                   </cpf:titulaire>
                 </cpf:identificationTitulaire>
               </cpf:passageCertification>
               <cpf:passageCertification>
-                <cpf:idTechnique>#VALEUR !</cpf:idTechnique>
+                <cpf:idTechnique>RNCP25000.2026</cpf:idTechnique>
                 <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
                 <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
-                <cpf:dateDebutValidite>2022-01-20</cpf:dateDebutValidite>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
                 <cpf:dateFinValidite xsi:nil="true" />
                 <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
                 <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
@@ -88,26 +148,656 @@
                 </cpf:modalitesInscription>
                 <cpf:identificationTitulaire>
                   <cpf:titulaire>
-                    <cpf:nomNaissance>titi</cpf:nomNaissance>
-                    <cpf:nomUsage>titi</cpf:nomUsage>
-                    <cpf:prenom1>test3</cpf:prenom1>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Rousseau</cpf:nomUsage>
+                    <cpf:prenom1>Jean</cpf:prenom1>
                     <cpf:anneeNaissance>1982</cpf:anneeNaissance>
+                    <cpf:moisNaissance>4</cpf:moisNaissance>
+                    <cpf:jourNaissance>26</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>34000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2027</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Alice</cpf:prenom1>
+                    <cpf:anneeNaissance>1955</cpf:anneeNaissance>
+                    <cpf:moisNaissance>2</cpf:moisNaissance>
+                    <cpf:jourNaissance>24</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2028</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Mercier</cpf:nomNaissance>
+                    <cpf:nomUsage>Lopez</cpf:nomUsage>
+                    <cpf:prenom1>Marie</cpf:prenom1>
+                    <cpf:anneeNaissance>1958</cpf:anneeNaissance>
+                    <cpf:moisNaissance>7</cpf:moisNaissance>
+                    <cpf:jourNaissance>9</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>33000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2029</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Meyer</cpf:nomNaissance>
+                    <cpf:nomUsage>Noël</cpf:nomUsage>
+                    <cpf:prenom1>Paul</cpf:prenom1>
+                    <cpf:anneeNaissance>2004</cpf:anneeNaissance>
+                    <cpf:moisNaissance>1</cpf:moisNaissance>
+                    <cpf:jourNaissance>16</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>31000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2030</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>VAE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Roux</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Elise</cpf:prenom1>
+                    <cpf:anneeNaissance>1989</cpf:anneeNaissance>
+                    <cpf:moisNaissance>3</cpf:moisNaissance>
+                    <cpf:jourNaissance>4</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>31000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2031</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_INITIALE_APPRENTISSAGE</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Bernard</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Luc</cpf:prenom1>
+                    <cpf:anneeNaissance>2004</cpf:anneeNaissance>
+                    <cpf:moisNaissance>3</cpf:moisNaissance>
+                    <cpf:jourNaissance>26</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>69002</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2032</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Garnier</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Emma</cpf:prenom1>
+                    <cpf:anneeNaissance>1968</cpf:anneeNaissance>
+                    <cpf:moisNaissance>11</cpf:moisNaissance>
+                    <cpf:jourNaissance>17</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2033</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Roux</cpf:nomNaissance>
+                    <cpf:nomUsage>Lopez</cpf:nomUsage>
+                    <cpf:prenom1>Elise</cpf:prenom1>
+                    <cpf:anneeNaissance>1957</cpf:anneeNaissance>
+                    <cpf:moisNaissance>6</cpf:moisNaissance>
+                    <cpf:jourNaissance>21</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>59000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2034</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Martin</cpf:nomNaissance>
+                    <cpf:nomUsage>Girard</cpf:nomUsage>
+                    <cpf:prenom1>Alice</cpf:prenom1>
+                    <cpf:anneeNaissance>1960</cpf:anneeNaissance>
+                    <cpf:moisNaissance>8</cpf:moisNaissance>
+                    <cpf:jourNaissance>20</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2035</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Roux</cpf:nomNaissance>
+                    <cpf:nomUsage>Rousseau</cpf:nomUsage>
+                    <cpf:prenom1>Paul</cpf:prenom1>
+                    <cpf:anneeNaissance>2006</cpf:anneeNaissance>
+                    <cpf:moisNaissance>5</cpf:moisNaissance>
+                    <cpf:jourNaissance>23</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>31000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2036</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Girard</cpf:nomUsage>
+                    <cpf:prenom1>Paul</cpf:prenom1>
+                    <cpf:anneeNaissance>1988</cpf:anneeNaissance>
+                    <cpf:moisNaissance>3</cpf:moisNaissance>
+                    <cpf:jourNaissance>21</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2037</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Roux</cpf:nomNaissance>
+                    <cpf:nomUsage>Perrin</cpf:nomUsage>
+                    <cpf:prenom1>Luc</cpf:prenom1>
+                    <cpf:anneeNaissance>2008</cpf:anneeNaissance>
+                    <cpf:moisNaissance>7</cpf:moisNaissance>
+                    <cpf:jourNaissance>11</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>33000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2038</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Boyer</cpf:nomUsage>
+                    <cpf:prenom1>Sophie</cpf:prenom1>
+                    <cpf:anneeNaissance>1954</cpf:anneeNaissance>
+                    <cpf:moisNaissance>7</cpf:moisNaissance>
+                    <cpf:jourNaissance>11</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>75001</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2039</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Bernard</cpf:nomNaissance>
+                    <cpf:nomUsage>Noël</cpf:nomUsage>
+                    <cpf:prenom1>Jean</cpf:prenom1>
+                    <cpf:anneeNaissance>1951</cpf:anneeNaissance>
+                    <cpf:moisNaissance>6</cpf:moisNaissance>
+                    <cpf:jourNaissance>5</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2040</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Martin</cpf:nomNaissance>
+                    <cpf:nomUsage>Boyer</cpf:nomUsage>
+                    <cpf:prenom1>Julien</cpf:prenom1>
+                    <cpf:anneeNaissance>1997</cpf:anneeNaissance>
+                    <cpf:moisNaissance>5</cpf:moisNaissance>
+                    <cpf:jourNaissance>2</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>59000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2041</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Blanc</cpf:nomNaissance>
+                    <cpf:nomUsage>Girard</cpf:nomUsage>
+                    <cpf:prenom1>Marie</cpf:prenom1>
+                    <cpf:anneeNaissance>2008</cpf:anneeNaissance>
+                    <cpf:moisNaissance>1</cpf:moisNaissance>
+                    <cpf:jourNaissance>2</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>13003</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2042</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Martin</cpf:nomNaissance>
+                    <cpf:nomUsage>Noël</cpf:nomUsage>
+                    <cpf:prenom1>Sophie</cpf:prenom1>
+                    <cpf:anneeNaissance>1966</cpf:anneeNaissance>
+                    <cpf:moisNaissance>3</cpf:moisNaissance>
+                    <cpf:jourNaissance>20</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>13003</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2043</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Garnier</cpf:nomNaissance>
+                    <cpf:nomUsage>Carpentier</cpf:nomUsage>
+                    <cpf:prenom1>Julien</cpf:prenom1>
+                    <cpf:anneeNaissance>1974</cpf:anneeNaissance>
+                    <cpf:moisNaissance>10</cpf:moisNaissance>
+                    <cpf:jourNaissance>27</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>13003</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2044</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Lopez</cpf:nomUsage>
+                    <cpf:prenom1>Emma</cpf:prenom1>
+                    <cpf:anneeNaissance>1966</cpf:anneeNaissance>
+                    <cpf:moisNaissance>5</cpf:moisNaissance>
+                    <cpf:jourNaissance>18</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>75001</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2045</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Fournier</cpf:nomNaissance>
+                    <cpf:nomUsage>Carpentier</cpf:nomUsage>
+                    <cpf:prenom1>Pierre</cpf:prenom1>
+                    <cpf:anneeNaissance>1996</cpf:anneeNaissance>
+                    <cpf:moisNaissance>5</cpf:moisNaissance>
+                    <cpf:jourNaissance>19</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>69002</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2046</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Dupont</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Julien</cpf:prenom1>
+                    <cpf:anneeNaissance>1959</cpf:anneeNaissance>
+                    <cpf:moisNaissance>1</cpf:moisNaissance>
+                    <cpf:jourNaissance>8</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>6000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2047</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Girard</cpf:nomUsage>
+                    <cpf:prenom1>Alice</cpf:prenom1>
+                    <cpf:anneeNaissance>1980</cpf:anneeNaissance>
                     <cpf:moisNaissance>9</cpf:moisNaissance>
                     <cpf:jourNaissance>3</cpf:jourNaissance>
                     <cpf:sexe>F</cpf:sexe>
                     <cpf:codeCommuneNaissance>
                       <cpf:codePostalNaissance>
-                        <cpf:codePostal>75003</cpf:codePostal>
+                        <cpf:codePostal>44000</cpf:codePostal>
                       </cpf:codePostalNaissance>
                     </cpf:codeCommuneNaissance>
                   </cpf:titulaire>
                 </cpf:identificationTitulaire>
               </cpf:passageCertification>
               <cpf:passageCertification>
-                <cpf:idTechnique>#VALEUR !</cpf:idTechnique>
+                <cpf:idTechnique>RNCP25000.2048</cpf:idTechnique>
                 <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
                 <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
-                <cpf:dateDebutValidite>2022-01-21</cpf:dateDebutValidite>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
                 <cpf:dateFinValidite xsi:nil="true" />
                 <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
                 <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
@@ -118,16 +808,136 @@
                 </cpf:modalitesInscription>
                 <cpf:identificationTitulaire>
                   <cpf:titulaire>
-                    <cpf:nomNaissance>tonton</cpf:nomNaissance>
-                    <cpf:nomUsage>tonton</cpf:nomUsage>
-                    <cpf:prenom1>test4</cpf:prenom1>
-                    <cpf:anneeNaissance>1983</cpf:anneeNaissance>
-                    <cpf:moisNaissance>10</cpf:moisNaissance>
+                    <cpf:nomNaissance>Martin</cpf:nomNaissance>
+                    <cpf:nomUsage>Perrin</cpf:nomUsage>
+                    <cpf:prenom1>Julien</cpf:prenom1>
+                    <cpf:anneeNaissance>2005</cpf:anneeNaissance>
+                    <cpf:moisNaissance>2</cpf:moisNaissance>
+                    <cpf:jourNaissance>11</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>44000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2049</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Fournier</cpf:nomNaissance>
+                    <cpf:nomUsage>Boyer</cpf:nomUsage>
+                    <cpf:prenom1>Marie</cpf:prenom1>
+                    <cpf:anneeNaissance>1952</cpf:anneeNaissance>
+                    <cpf:moisNaissance>6</cpf:moisNaissance>
                     <cpf:jourNaissance>4</cpf:jourNaissance>
                     <cpf:sexe>M</cpf:sexe>
                     <cpf:codeCommuneNaissance>
                       <cpf:codePostalNaissance>
-                        <cpf:codePostal>75004</cpf:codePostal>
+                        <cpf:codePostal>75001</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2050</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Perrin</cpf:nomUsage>
+                    <cpf:prenom1>Luc</cpf:prenom1>
+                    <cpf:anneeNaissance>1985</cpf:anneeNaissance>
+                    <cpf:moisNaissance>2</cpf:moisNaissance>
+                    <cpf:jourNaissance>7</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>59000</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2051</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Bernard</cpf:nomNaissance>
+                    <cpf:nomUsage>Carpentier</cpf:nomUsage>
+                    <cpf:prenom1>Emma</cpf:prenom1>
+                    <cpf:anneeNaissance>1970</cpf:anneeNaissance>
+                    <cpf:moisNaissance>4</cpf:moisNaissance>
+                    <cpf:jourNaissance>8</cpf:jourNaissance>
+                    <cpf:sexe>F</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>75001</cpf:codePostal>
+                      </cpf:codePostalNaissance>
+                    </cpf:codeCommuneNaissance>
+                  </cpf:titulaire>
+                </cpf:identificationTitulaire>
+              </cpf:passageCertification>
+              <cpf:passageCertification>
+                <cpf:idTechnique>RNCP25000.2052</cpf:idTechnique>
+                <cpf:obtentionCertification>PAR_ADMISSION</cpf:obtentionCertification>
+                <cpf:donneeCertifiee>true</cpf:donneeCertifiee>
+                <cpf:dateDebutValidite>2022-07-27</cpf:dateDebutValidite>
+                <cpf:dateFinValidite xsi:nil="true" />
+                <cpf:presenceNiveauLangueEuro>false</cpf:presenceNiveauLangueEuro>
+                <cpf:presenceNiveauNumeriqueEuro>false</cpf:presenceNiveauNumeriqueEuro>
+                <cpf:scoring xsi:nil="true" />
+                <cpf:mentionValidee xsi:nil="true" />
+                <cpf:modalitesInscription>
+                  <cpf:modaliteAcces>FORMATION_CONTINUE_CONTRAT_DE_PROFESSIONNALISATION</cpf:modaliteAcces>
+                </cpf:modalitesInscription>
+                <cpf:identificationTitulaire>
+                  <cpf:titulaire>
+                    <cpf:nomNaissance>Durand</cpf:nomNaissance>
+                    <cpf:nomUsage>Faure</cpf:nomUsage>
+                    <cpf:prenom1>Luc</cpf:prenom1>
+                    <cpf:anneeNaissance>1979</cpf:anneeNaissance>
+                    <cpf:moisNaissance>12</cpf:moisNaissance>
+                    <cpf:jourNaissance>5</cpf:jourNaissance>
+                    <cpf:sexe>M</cpf:sexe>
+                    <cpf:codeCommuneNaissance>
+                      <cpf:codePostalNaissance>
+                        <cpf:codePostal>75001</cpf:codePostal>
                       </cpf:codePostalNaissance>
                     </cpf:codeCommuneNaissance>
                   </cpf:titulaire>

@@ -4,7 +4,6 @@
 # Supression de la ligne 6 (enregistrement incorrecte)
 # Verification que tout les champs soient bien remplis
 # Vérifier qu'il n'y a pas de décalage dans les champs (exemple Code postal)
-# Mettre le format de la colonne 5.10 : AAAA-MM-JJ
 #*********************************************************************************
 
 
